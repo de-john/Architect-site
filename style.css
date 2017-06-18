@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'league-gothic';
+	src: url('font/webfonts/league-gothic-regular-webfont.eot');
+	src: url('font/webfonts/leaguegothic-regular-webfont.woff') format('woff'), 
+         url('font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'), 
+         url('font/webfonts/leaguegothic-regular-webfont.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@media print {
+    .hidden-print {display:none !important;}
+    .image-print {
+        width:33.33%;
+        height: 33.33%;
+        float: left;
+    }
+}
+
+.container-full {
+    width: 90% ;
+}
+
+h1 {
+    font-family: 'league-gothic';
+}
+
+.center-col{
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;}
+
+.row {text-align: center;}
+
+.img-slides {
+    max-height: 40em;
+}
+
+.txt-slides {
+    color: lime;
+}
+.col-sm-5 {
+    background-color: whitesmoke;
+    max-height: 50em;
+    max-width: 100%;
+    margin: 1em;
+}
+
+.col-md-4 {
+    background-color: whitesmoke;
+    padding: .5em;
+    
+}
+
+/*
+.stick {
+    height: 33.33%;
+    width: 33.33%;
+    padding: 1em;
+}*/
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-responsive {
+    max-width: 50em;
+    max-height: 22em;
+    min-width: 40%;
+    min-height: 22em; 
+}
+
+
+.highlight {
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background-color:darkturquoise;
+}
+.navbar .navbar-brand .brand, .navbar .nav > li > a  {
+    color: white;
+}
+.navbar .navbar-brand .brand, .navbar .nav > li > a:hover {
+    color: black;
+}
+.navbar-header .navbar-brand {
+    color: white;
+} 
+.navbar-header a:hover {
+    color: black;
+}
+.active {
+    background-color:whitesmoke;
+    color: steelblue !important;
+}
+
+#about_me {
+    overflow: auto;
+    text-align: justify;
+}
+
+.face {
+        border: 1px solid darkturquoise;
+        width: 25%;
+        height: 25%;
+        float: left;        
+        margin: 0 15px 10px 0px;   
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    height: 90%;
+}
+
+body { 
+    background: url(images/blueprint.jpg) no-repeat center center fixed;
+    background-size: cover;
+}  /*FULL BACKGROUND*/
+
+.logo {    
+    max-height:10%;
+    max-width: 10%;
+    float: right;
+}
